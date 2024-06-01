@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@200;300;400;500;600;700&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background: url("../images/index2.jpeg"), #003049;
+    background-size: cover;
+}
+
+h1 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background: #e9f5db;
+    padding: 5px;
+    color: #3d0b37;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+}
+
+.balance {
+    background: #bf0603;
+    color: #d8f3dc;
+    font-weight: bold;
+    padding: 3px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+}
+
+.container .card a {
+    background: rgba(255, 255, 255, 0.15);
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #cfe0c3;
+    border-radius: 5px;
+    margin: 30px;
+    padding: 30px 15px;
+    text-align: center;
+    width: 50%;
+    height: 20vh;
+    transition: 0.3s ease;
+    font-weight: 500;
+}
+
+.container .card a:hover {
+    color: #0a1128;
+    background: #d3d3d3;
+    font-weight: 500;
+}
+
+.logout a {
+    color: #0a1128;
+    background: #fff;
+    padding: 10px 50px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+.logout a:hover {
+    color: #fff;
+    background: rgba(255, 255, 255, 0.15);
+    font-weight: 600;
+}
